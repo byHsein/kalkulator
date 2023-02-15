@@ -1,0 +1,84 @@
+body{
+    background-color:teal;
+    display:flex;
+    justify-content:center;
+}
+.card{
+    background-color:#f1f3f5;
+    width:300px;
+    height:500px;
+    border-radius:20px;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0,0,0,0,16);
+    display:flex;    
+    padding:20px;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.display{
+    background-color:#f1f3f5;
+    height:35%;
+    width:100%;
+    border-radius:20px;
+    box-shadow:inset 2px 3px 12px rgb(0 , 0 , 0 , 0.16), 5px 5px 12px #fff;
+    
+}
+.display input{
+    background-color:transparent;
+    width:90%;
+    border:none;
+    text-align:end;
+    font-size:30px;
+    outline:none;
+
+}
+.button{
+    height:70%;
+    display:flex;
+    width:100%;
+    justify-content:center;
+    text-align:center;
+    margin-top:10px;
+}
+.tombol{
+    background-color:#f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0,0,0,0.16);
+    border:none;
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    cursor:pointer;
+    color:tomato;
+    font-size:15px;
+    gap:60px;
+    
+}
+.tombol-kiri{
+    width:70%;
+    height:100%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#f1f3f5;
+    
+    
+}
+.tombol:hover{
+    transform:scale(0.9);
+
+}
+.tombol-kanan{
+    border-radius:20px;
+    background-color: rgba(225,229,188,0.671);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width:30%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:space-around;
+    padding:0 10px 0 10px;
+
+
+}
